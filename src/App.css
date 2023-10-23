@@ -1,0 +1,1028 @@
+.d-flex{
+  display: flex;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+.flex-2{
+  flex: 2;
+}
+
+.flex-3{
+  flex: 3;
+}
+
+.flex-4{
+  flex: 4;
+}
+
+.m-10{
+  margin: 10px;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.p-10{
+  padding: 10px;
+}
+
+.justify-center{
+  justify-content: center;
+}
+.align-items-center{
+  align-items: center;
+}
+
+.flex-start{
+  justify-content: flex-start;
+}
+
+.gap-20{
+  gap: 20px;
+}
+
+/*//////////task1//////////*/
+
+.ChangeInfo{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+/*///////////task2/////////////////*/
+
+
+.ChangeInfo div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+/*//////////////task3 - cookie clicker////////////////////*/
+
+.gameContainer{
+  justify-content: center;
+  align-items: center;
+}
+
+.cookieScreen{
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.cookieScreen img:hover{
+  cursor: pointer;
+}
+
+.upgradeMenu div{
+  height: 50px;
+  padding: 10px;
+  border: 3px solid black;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.upgradeMenu div:hover{
+  cursor: pointer;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*///////////////Task 4//////////////////*/
+
+.card{
+  width: 350px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+/*///////////////////Task 5/////////////////////////*/
+
+.colorField{
+  width: 100%;
+  height: 50px;
+  border: 2px solid black;
+}
+
+/*////////////////////TASK 6/////////////////////////////*/
+
+/*body{*/
+/*  background-color: #34393a;*/
+/*!*}*! for that task6 only*/
+
+.productCard{
+  background-color: #94a3a9;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 430px;
+}
+
+.imageContainer button{
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.imageContainer button:hover{
+  color: black;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.imageContainer{
+  position: relative;
+}
+
+.imageContainer img{
+  width: 100%;
+  height: 300px;
+}
+
+.leftSide{
+  top: 130px;
+  left: 10px;
+}
+
+.rightSide{
+  top: 130px;
+  right: 10px;
+}
+
+
+/*///////////////////////TASK 7//////////////////////*/
+
+.box{
+  height: 500px;
+}
+
+.colorBox{
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.container1{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addedColors{
+  height: 100%;
+}
+
+.progress{
+  width: 50px;
+  height: 80%;
+  border: 2px solid black;
+  position: relative;
+}
+
+.filledProgress{
+  width: 100%;
+  background-color: #0a53be;
+  position: absolute;
+  bottom: 0;
+}
+
+.addedBoxes{
+  border: 2px solid black;
+  height: 90%;
+  width: 500px;
+  align-content: flex-start;
+}
+
+/*////////////////TASK 8///////////////////////*/
+
+.colorCard{
+  padding: 10px;
+  border: 5px solid gray;
+  border-radius: 20px;
+  margin: 10px;
+  width: 350px;
+}
+
+.smallCard{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+/*//////////////TASK 9///////////////////*/
+
+.numberBox{
+  padding: 10px;
+  border: 2px solid black;
+}
+
+/*////////////////////Task 10///////////////////////////*/
+/*///////////////////////GOLD DIGGING GAME//////////////////////////////*/
+
+.gameContainer{
+  background-image: url("https://as1.ftcdn.net/v2/jpg/05/61/67/06/1000_F_561670668_qPNdZIGqwGUpP6L1NEbZFzOqqfSZLe2n.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.gameScreen{
+  justify-content: space-around;
+}
+
+.playerScreen{
+  border: 8px solid darkgoldenrod;
+  background-image: url("https://cdn.gamedevmarket.net/wp-content/uploads/20220131184224/984a7bb452ebd8f456e86eb724df01be.png");
+}
+
+.upgradeBar{
+  padding: 10px;
+  justify-content: flex-start;
+  border: 5px solid gray;
+  background-image: url("https://st3.depositphotos.com/9461386/35794/v/450/depositphotos_357945102-stock-illustration-pixel-wood-background-pixel-art.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.upgradeBar button{
+  margin: 5px;
+  padding: 5px;
+}
+
+.slots{
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.inventory{
+  border: 8px solid saddlebrown;
+  background-image: url("https://openclipart.org/image/400px/251653");
+  background-position: center;
+  width: 600px;
+  overflow: scroll;
+}
+
+.inventory button {
+  width: 100%;
+  padding: 5px;
+}
+
+.energyBar{
+  height: 50px;
+  width: 500px;
+  background-color: #7c7676;
+  position: relative;
+}
+
+.remainingEnergy{
+  height: 50px;
+  background-color: green;
+  position: absolute;
+  left: 0;
+}
+
+.digBtn button{
+  padding: 10px;
+  font-size: 35px;
+}
+
+.slotCard{
+  background-color: wheat;
+  height: 100px;
+  padding: 10px;
+  border: 3px solid gray;
+  border-radius: 20px;
+}
+
+.goldPrice {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.46);
+}
+
+.digBtn button{
+  border-radius: 20px;
+  color: saddlebrown;
+}
+
+.digBtn span{
+  color: goldenrod;
+}
+
+/*////////////////////////Task 11//////////////////*/
+
+
+
+.postsContainer,
+.addedPosts {
+  height: 600px;
+  overflow: scroll;
+}
+
+.userCard,
+.addedCard {
+  padding: 10px;
+  border: 5px solid gray;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.progressBar{
+  margin-top: 80px;
+  height: 500px;
+  width: 50px;
+  background-color: #6b7379;
+  position: relative;
+}
+
+.limitBar{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.tag{
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+/*////////////TASK 12/////////////////*/
+
+.registrationForm{
+  width: 600px;
+  padding: 10px;
+  border: 8px solid gray;
+  border-radius: 20px;
+}
+
+input{
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.registrationForm button{
+  padding: 10px;
+}
+
+/*/////////////////TASK 13/CHAT APP/////////////////*/
+
+.chatApp{
+  flex-direction: column;
+  background-color: #91b0e5;
+}
+
+.chatApp h1{
+  color: white;
+}
+
+.sentMsg{
+  height: 500px;
+  border: 8px solid gray;
+  border-radius: 20px;
+  padding: 10px;
+  overflow: scroll;
+  background-color: #1a1d20;
+}
+
+.userInputs button{
+  padding: 5px;
+}
+
+input{
+  width: 300px;
+}
+
+.message{
+  width: 500px;
+  padding: 10px;
+  border: 5px solid gray;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: #948d8d;
+}
+
+.message span{
+  font-weight: bold;
+}
+
+/*////////////////TASK 14///////////////////////*/
+
+.userToolbar{
+  padding: 10px;
+  background-color: gray;
+  justify-content: flex-start;
+}
+
+.userToolbar button{
+  margin: 5px;
+}
+
+.loginForm, .registerForm{
+  padding: 10px;
+  border: 5px solid gray;
+  border-radius: 20px;
+}
+
+.users,
+.chatField{
+  padding: 10px;
+  border: 5px solid gray;
+  border-radius: 20px;
+  background-color: #2b2f32;
+}
+
+.userList,
+.messageField{
+  height: 550px;
+  padding: 10px;
+  overflow: scroll;
+  border: 5px solid #4343e7;
+  border-radius: 20px;
+}
+
+.messageField{
+  background-color: #747f86;
+  width: 600px;
+}
+
+.userList{
+  background-color: #2b2f32;
+  height: 500px;
+  border: 3px solid aqua;
+  border-radius: 20px;
+}
+
+
+.user{
+  padding: 10px;
+  background-color: #a0a7af;
+  /*border: 3px solid lightseagreen;*/
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.userNameStyle{
+  color: #bdbbbb;
+  background-color: #2b2f32;
+  padding: 5px;
+  border: 3px solid darkslategray;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+.userNameStyle:hover{
+  cursor: pointer;
+  color: #1a1d20;
+}
+
+.receivedMessage{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 400px;
+  padding: 10px;
+  background-color: #5aa0f1;
+  border-radius: 20px;
+}
+
+.sentMessage{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 160px;
+  width: 400px;
+  padding: 10px;
+  background-color: #a271b7;
+  border-radius: 20px;
+}
+
+.loginUserMessage span{
+  font-weight: bold;
+}
+
+/*////////////////////TASK15 CAT AND DOG  APP//////////////////*/
+
+.gap-20{
+  gap: 20px;
+}
+
+.post{
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid #484444;
+  border-radius: 20px;
+  background-color: #969393;
+}
+
+.post h4{
+  cursor: pointer;
+}
+
+/*/////////////////////TASK16////////////////////*/
+
+.toolbar{
+  padding: 10px;
+  border: 3px solid gray;
+  border-radius: 20px;
+}
+
+.userRegistration,
+.userLogin{
+  width: 500px;
+  padding: 10px;
+  flex-direction: column;
+  border: 5px solid gray;
+  border-radius: 20px;
+}
+
+.userCard h4{
+  cursor: pointer;
+}
+
+.userCard h4:hover{
+ color: darkviolet;
+}
+
+/*/////////////////Task 18//////////////////*/
+
+.userField,
+.changeColor,
+.changeText{
+  padding: 10px;
+  border: 3px solid gray;
+  border-radius: 20px;
+}
+
+.color-box{
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.user-card{
+  padding: 10px;
+  border: 3px solid gray;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+/*/////////////////Monopoly game///////////////////*/
+
+.startScreen{
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/011/166/641/non_2x/fake-play-money-background-free-vector.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.game{
+  background-image: url("https://images-na.ssl-images-amazon.com/images/S/pv-target-images/aa22f7bd40726af6afd9c54799b3cbe996ade4542b502f08f8d64e832f2e18b1._RI_TTW_.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.figures{
+  padding: 10px;
+  border: 3px solid gray;
+  border-radius: 20px;
+  background-color: rgba(190, 255, 173, 0.42);
+}
+
+.figure{
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.figure img{
+  padding: 10px;
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+.startBtn{
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.board{
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  position: relative;
+}
+
+.cell {
+  height: 230px;
+  width: 185px;
+  background-color: white;
+  border: 2px solid black;
+  position: relative;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cell.occupied {
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+.cell button{
+  margin: 10px;
+}
+
+.cell:first-child{
+  background-image: url("https://www.clipartmax.com/png/small/335-3351523_monopoly-board-start.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.cell:nth-child(2) .street-name,
+.cell:nth-child(3) .street-name,
+.cell:nth-child(4) .street-name{
+  background-color: red;
+}
+
+.cell:nth-child(5) .street-name,
+.cell:nth-child(6) .street-name,
+.cell:nth-child(12) .street-name{
+  background-color: yellow;
+}
+
+.cell:nth-child(18) .street-name,
+.cell:nth-child(23) .street-name,
+.cell:nth-child(24) .street-name{
+  background-color: green;
+}
+
+.cell:nth-child(21) .street-name,
+.cell:nth-child(22) .street-name,
+.cell:nth-child(20) .street-name{
+  background-color: navy;
+}
+
+.cell:nth-child(7) .street-name,
+.cell:nth-child(13) .street-name,
+.cell:nth-child(19) .street-name{
+  background-color: orange;
+}
+
+
+.cell:nth-child(8),
+.cell:nth-child(9),
+.cell:nth-child(10),
+.cell:nth-child(11),
+.cell:nth-child(14),
+.cell:nth-child(15),
+.cell:nth-child(16),
+.cell:nth-child(17){
+  border: none;
+  background-color: transparent;
+}
+
+.street-name{
+  width: 93%;
+  text-align: center;
+  border: 2px solid black;
+  margin: 10px;
+  position: absolute;
+  left: -5px;
+}
+
+
+.dice{
+  position: absolute;
+  top: 280px;
+  left: 250px;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.buttons button{
+  padding: 10px;
+  font-size: 28px;
+}
+
+.bought-streets{
+  width: 290px;
+  padding: 10px;
+  border: 3px solid gray;
+  border-radius: 20px;
+  background-color: rgba(194, 255, 179, 0.46);
+}
+
+.bought-streets button{
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.bought-streets li{
+  list-style: "🏠";
+}
+
+/*//////////NODE USERS LIST///////////*/
+
+
+/*//////////////////cao////////////////*/
+
+
+.cao-toolbar{
+  background-color: #333131;
+  color: whitesmoke;
+  justify-content: flex-start;
+}
+
+.cao-header{
+background-image: url("https://picsum.photos/1000/600/?blur=2");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  flex-direction: column;
+}
+
+.cao-header button{
+  padding: 20px;
+  color: white;
+  background-color: lightskyblue;
+  border-radius: 10px;
+}
+
+.todo-app{
+  width: 500px;
+}
+
+.task{
+  padding: 10px;
+  width: 300px;
+  background-color: white;
+  margin: 5px;
+  justify-content: space-between;
+}
+
+.task img{
+  height: 30px;
+  cursor: pointer;
+}
+
+.order-table table{
+  border: 2px solid black;
+}
+
+.order-table td{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.order-table th{
+  background-color: lightgray;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.tamagotchi-select{
+background-image: url("https://i.etsystatic.com/17771344/r/il/61f1ab/2695532990/il_570xN.2695532990_s9gm.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: wheat;
+}
+
+.select-pet{
+  flex-direction: column;
+}
+
+.pets{
+  background-color: navajowhite;
+  border: 3px solid gray;
+  border-radius: 20px;
+}
+
+.pets div{
+  padding: 10px;
+}
+
+.pets img{
+  height: 80px;
+  transition-duration: 0.4s;
+}
+
+.pets img:hover{
+  height: 100px;
+  cursor: pointer;
+}
+
+.tamagotchipet{
+  height: 500px;
+  width: 500px;
+  background-image: url("https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc0MjU4Nzc1ODI0Mjc5MDM2/how-to-care-for-a-tamagotchi-pet.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.tamagotchipet img {
+  height: 100px;
+  position: absolute;
+  top: 220px;
+  left: 170px;
+}
+
+.hungry-bar{
+  margin: 10px;
+  height: 40px;
+  width: 500px;
+  background-color: gray;
+}
+.hungry{
+  height: 40px;
+  background-color: #0a3622;
+}
+
+.laid-eggs{
+  background-image: url("https://garden.spoonflower.com/c/995274/p/f/m/b7wf3aMfebXMVUS5g0iz7MmXrCOjCfMA4rXBkgKeSSndq3WAjwT76-M/Kawaii%20Pets.jpg");
+  height: 600px;
+  width: 500px;
+  border: 8px dotted red;
+  border-radius: 20px;
+  overflow: scroll;
+  align-content: flex-start;
+}
+
+.egg{
+  background-image: url("https://openseauserdata.com/files/c729055706708635801ca8cf2a3e9117.png");
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}
+
+/*/////////////NODE TASK 14/////////////*/
+
+.post-field{
+  height: 500px;
+  border: 3px solid gray;
+  border-radius: 20px;
+  background-color: #3f3939;
+  overflow: scroll;
+}
+
+.user-profile{
+  border: 3px solid gray;
+  border-radius: 20px;
+  background-color: #3f3939;
+}
+
+.registrationForm,
+.loginForm{
+  background-color: #3f3939;
+  color: #b7b7dc;
+}
+
+.registrationForm button{
+  background-color: #4f151b;
+  color: navajowhite;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+}
+
+.loginForm button{
+  background-color: #4343e7;
+  color: navajowhite;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+}
+
+.registrationForm button:hover{
+  background-color: #912530;
+  cursor: pointer;
+}
+
+.loginForm button:hover{
+  background-color: #6666ff;
+  cursor: pointer;
+}
+
+.update-profile button,
+.toolbar button,
+.post button{
+  background-color: #0a58ca;
+  color: whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+  transition-duration: 0.4s;
+}
+
+.update-profile button:hover,
+.toolbar button:hover,
+.post button:hover{
+  background-color: #093c85;
+  cursor: pointer;
+}
+
+.toolbar{
+  background-color: #3f3939;
+}
+
+body{
+  background-color: #211e1e;
+}
+
+/*/////////////SLOT GAME TASK///////////////////*/
+
+.bet-buttons button{
+  background-color: #0a53be;
+  border: 2px solid #0a53be;
+  border-radius: 10px;
+  color: white;
+  transition-duration: 0.4s;
+  font-size: 22px;
+}
+
+.bet-buttons button:hover{
+  cursor: pointer;
+  background-color: #0dcaf0;
+  color: black;
+}
+
+.slots{
+  background-color: #7e7a7a;
+  border: 10px solid #342d2d;
+  height: 300px;
+  overflow: hidden;
+}
+
+table{
+  width: 400px;
+}
+
+table td, th{
+  padding: 10px;
+  color: whitesmoke;
+  border: 2px solid white;
+}
+
+.slots img{
+  height: 200px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.spin-button{
+  padding: 10px;
+  font-size: 24px;
+}
+
+.spin-button:hover{
+  cursor: pointer;
+}
+
+.slot-symbol {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+
+.spin-animation {
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(-250px);
+  }
+}
